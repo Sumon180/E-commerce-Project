@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Card</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Sumon Hossain</h1>
+        <div class="card">
+            <div class="card-img">
+                <img src="pic (1).jpg" class="img" alt="No photo">
+            </div>
+            <div class="card-title">
+                <h3>Chicken Sandwise</h3>
+                <h4>Size : 6'</h4>
+                <h4 class="price">Price : $ <span id="price">100</span></h4>
+                <i class="fa-solid fa-plus icon" onclick="increament('count','price','item')"></i>
+                <input class="btn" id="count" type="button" value="0">
+                <i class="fa-solid fa-minus icon" onclick="decreament('count','price','item')"></i>
+                <span class="item">Your Item: $ <span id="item">00</span></span>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <hr class="hr-style">
+
+        <div class="card">
+            <div class="card-img">
+                <img src="pic (2).jpg" class="img" alt="No photo">
+            </div>
+            <div class="card-title">
+                <h3>Chicken Burger</h3>
+                <h4>Size : 4.5'</h4>
+                <h4 class="price">Price : $ <span id="price1">200</span></h4>
+                <i class="fa-solid fa-plus icon" onclick="increament('count1','price1','item1')"></i>
+                <input class="btn" id="count1" type="button" value="0">
+                <i class="fa-solid fa-minus icon" onclick="decreament('count1','price1','item1')"></i>
+                <span class="item">Your Item: $ <span id="item1">00</span></span>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <hr class="hr-style">
+    </div>
+
+
+    <div class="fixed">
+        <h1 class="total">The Total Amount of</h1>
+        <h2>Product Amount : $ <span id="pr_amount">00</span></h2>
+        <h2>Delivery charge : $ <span id="charge">20</span></h2>
+        <hr>
+        <h2>Total product Amount : $ <span id="fTotalAmount">00</span></h2>
+        <hr><hr>
+
+        <div class="kupon" id="kupondiv">
+            <h4 class="kupon">Kupon code with 50tk less</h4>
+            <h4 class="code">Your code is : sUMoN</h4>
+            <input type="text" class="kinput" id="kinput" placeholder="Your kupon code">
+            <button class="apply" id="applybtn">Apply</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

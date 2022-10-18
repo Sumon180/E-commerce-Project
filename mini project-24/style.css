@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #055494;
+}
+.container{
+    width: 580px;
+    height: 600px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    box-shadow: 4px 5px 15px black;
+}
+h1{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 4px 5px 15px black;
+}
+.card-img{
+    width: 40%;
+    text-align: center;
+    box-shadow: 4px 5px 15px black;
+    padding: 20px;
+    float: left;
+}
+.card-title{
+    float: left;
+    margin-left: 5px;
+    padding: 20px;
+}
+h4,h3{
+    color: teal;
+    font-size: 1.6rem;
+    padding: 5px;
+}
+.price{
+    color: red;
+}
+.icon{
+    color: black;
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: #83d083;
+    transition: background 0.5s;
+    padding: 4px;
+    border-radius: 4px;
+
+}
+.icon:hover{
+    background-color: green;
+    color: white;
+    
+}
+.btn{
+    width: 80px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(80, 90, 70);
+    font-size: 1.4rem;
+   
+}
+.item{
+    font-size: 1.2rem;
+
+}
+.clear{
+    clear: both;
+}
+.hr-style{
+    border: 5px soild gray;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.fixed{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 10px black;
+
+}
+.total{
+    text-align: center;
+    color: teal;
+}
+h2{
+    padding: 20px;
+}
+.kupon{
+    color: teal;
+    text-align: center;
+}
+.code{
+    color: brown;
+    text-align: center;
+    
+}
+.kinput{
+    width: 40%;
+    padding: 6px;
+    
+}
+.apply{
+    background-color: tomato;
+    color: white;
+    font-size: 1rem;
+    padding: 4px;
+    margin-left: 20px;
+}
